@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 -Input form to collect city name from the user.\
 -HTTP requests to OpenWeatherMap API to retrieve current weather data.\
 -Display current temperature, humidity, and weather condition in a user-friendly way.\
--Error handling for invalid user input and API errors.\
+-Error handling for invalid user input and API errors.
 
 ## Usage
 
@@ -24,5 +24,5 @@ To use this weather app, follow these steps:
 
 1-Enter a city name in the input form and submit the form.\
 2-The app will display the current temperature, humidity, and weather condition for the specified location.\
-3-If the input is invalid or there is an error with the API request, the app will display an error message.\
+3-If the input is invalid or there is an error with the API request, the app will display an error message.
 
