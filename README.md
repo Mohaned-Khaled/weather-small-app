@@ -1,27 +1,28 @@
-# WeatherApp
+# Weather App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.\
+This is a small Angular project that uses HTTP requests to get the weather for a given location based on the city name. The app follows a forms-driven approach to collect user input, and it also makes use of pipes, RxJS operators, and error handling to provide a smooth user experience.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run this project locally, follow these steps:
 
-## Code scaffolding
+1-Clone the repository to your local machine: git clone 'https://github.com/Mohaned-Khaled/weather-small.app'. \
+2-Install the dependencies: 'npm install'\
+3-Add your OpenWeatherMap API key to the environment file located in 'src/environments/environment.ts'.\
+4-Start the Angular app: 'ng serve'
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
+-Input form to collect city name from the user.\
+-HTTP requests to OpenWeatherMap API to retrieve current weather data.\
+-Display current temperature, humidity, and weather condition in a user-friendly way.\
+-Error handling for invalid user input and API errors.\
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To use this weather app, follow these steps:
 
-## Running unit tests
+1-Enter a city name in the input form and submit the form.\
+2-The app will display the current temperature, humidity, and weather condition for the specified location.\
+3-If the input is invalid or there is an error with the API request, the app will display an error message.\
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
